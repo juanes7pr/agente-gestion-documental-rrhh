@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gestión Documental Inteligente de RR. HH.</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📄</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="src/styles/style.css">
+</head>
+<body>
+<canvas id="bg"></canvas><div class="glow g1"></div><div class="glow g2"></div>
+<main id="stage" aria-live="polite"></main>
+<nav id="ctrl" aria-label="Controles de la presentación">
+  <div id="bar"><div id="fill"></div></div>
+  <button data-go="first" title="Portada (Home)">⌂</button>
+  <button data-go="prev">← Anterior</button>
+  <span id="count">01 / 20</span>
+  <button class="pri" data-go="next">Siguiente →</button>
+  <button id="fs" title="Pantalla completa">⛶</button>
+</nav>
+<script src="src/slides.js"></script>
+<script src="src/background.js"></script>
+<script src="src/main.js"></script>
+</body>
+</html>

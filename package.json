@@ -1,0 +1,1 @@
+{ "name": "gestion-documental-presentacion", "version": "1.0.0", "private": true, "description": "Presentación web interactiva: Gestión Documental Inteligente de RR. HH.", "scripts": { "start": "npx serve ." } }
